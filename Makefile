@@ -51,7 +51,7 @@ prod_assets: node_modules
 
 
 # Extra
-# .PHONY: seed_pro
-# seed_pro: vendor
-# 	heroku run -a fiit php artisan migrate:refresh
-# 	heroku run -a fiit php artisan db:seed
+.PHONY: seed_pro
+seed_pro: vendor
+	heroku run -a fiit-pretection php artisan migrate:refresh
+	heroku run -a fiit-pretection php artisan db:seed
