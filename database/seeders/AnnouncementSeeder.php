@@ -30,7 +30,7 @@ class AnnouncementSeeder extends Seeder
             Announcement::create([
                 'area' => null,
                 'type' => 'info',
-                'message' => 'This is a <strong>Global</strong> announcement that will show on both the frontend and backend. <em>See <strong>AnnouncementSeeder</strong> for more usage examples.</em>',
+                'message' => 'Abdourahmane Diop (+221778435052) : Ce Site web est en <strong>développement</strong>. <em>Ne saisissez aucune de vos données sur la plateforme.</em>',
                 'enabled' => true,
             ]);
 
