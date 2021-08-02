@@ -104,7 +104,7 @@
 <header class="header" id="header">
     <nav class="nav container">
         <a href="#" class="nav__logo">
-            <img src="{{ asset('img/logofpi.png') }}" class="img" /> Fiit Protection Internationale
+            <img src="{{ asset('img/LogoFPI.png') }}" class="img" /> Fiit Protection Internationale
         </a> 
         
         <div class="nav__menu" id="nav-menu">
