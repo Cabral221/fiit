@@ -2,29 +2,31 @@
 
 
 @section('content')
-<div id="app" class="flex-center position-ref full-height">
-    <div class="top-right links">
-        @auth
-            @if ($logged_in_user->isUser())
-                <a href="{{ route('frontend.user.dashboard') }}">@lang('Dashboard')</a>
-            @endif
-
-            <a href="{{ route('frontend.user.account') }}">@lang('Account')</a>
-        @else
-            <a href="{{ route('frontend.auth.login') }}">@lang('Login')</a>
-
-            @if (config('boilerplate.access.user.registration'))
-                <a href="{{ route('frontend.auth.register') }}">@lang('Register')</a>
-            @endif
-        @endauth
-    </div><!--top-right-->
-
-    <div class="content">
-        @include('includes.partials.messages')
-
-        <div class="title m-b-md">
-            <h1>FIIT PROTECTION INTERNATIONALE</h1>
-        </div><!--title-->
-    </div><!--content-->
-</div><!--app-->
+<div class="container">
+    
+    <!-- Slider main container -->
+    <div class="swiper-container swiper__carousel">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide" style="background-image: url(https://picsum.photos/1080/1080?random=1);">Slide 1</div>
+            <div class="swiper-slide" style="background-image: url(https://picsum.photos/1080/1080?random=2);">Slide 2</div>
+            <div class="swiper-slide" style="background-image: url(https://picsum.photos/1080/1080?random=3);">Slide 3</div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+    
+    
+    <div class="title m-b-md">
+        <h1>FIIT PROTECTION INTERNATIONALE</h1>
+    </div><!--title-->
+</div><!--content-->
 @endsection

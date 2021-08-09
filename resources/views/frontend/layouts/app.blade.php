@@ -16,9 +16,6 @@
     <!--==================== UNICONS ====================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     
-    <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="{{ asset('css/swiper-bundle.min.css') }}">
-
     <link href="{{ mix('css/frontend.css') }}" rel="stylesheet">
     <livewire:styles />
     @stack('after-styles')
@@ -28,10 +25,14 @@
         @include('frontend.includes.nav')
         @include('includes.partials.messages')
 
-        <main class="main container" id="main">
-            @include('includes.partials.read-only')
-            @include('includes.partials.logged-in-as')
-            @include('includes.partials.announcements')
+        <main class="main" id="main">
+            <div class="container">
+                @include('includes.partials.read-only')
+                @include('includes.partials.logged-in-as')
+                @include('includes.partials.announcements')
+    
+                @include('includes.partials.messages')
+            </div>
 
             @yield('content')
         </main>
@@ -45,9 +46,6 @@
     <a href="#" class="scrollup" id="scroll-up">
         <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
-    
-    <!--==================== SWIPER JS ====================-->
-    <script src="{{ asset('js/swiper-bundle.min.js') }}"></script>
     
     <script src="{{ mix('js/manifest.js') }}"></script>
     <script src="{{ mix('js/vendor.js') }}"></script>
