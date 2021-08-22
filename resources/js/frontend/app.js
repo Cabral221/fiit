@@ -110,27 +110,27 @@ const swiperCarousel = new Swiper('.swiper__carousel', {
 // })
 
 /*==================== SERVICES MODAL ====================*/
-// const modalViews = document.querySelectorAll('.services__modal'),
-//       modalBtns = document.querySelectorAll('.services__button'),
-//       modalCloses = document.querySelectorAll('.services__modal-close')
+const modalViews = document.querySelectorAll('.services__modal'),
+      modalBtns = document.querySelectorAll('.services__button'),
+      modalCloses = document.querySelectorAll('.services__modal-close')
 
-// let modal = function (modalClick) {
-//     modalViews[modalClick].classList.add('active-modal')
-// }
+let modal = function (modalClick) {
+    modalViews[modalClick].classList.add('active-modal')
+}
 
-// modalBtns.forEach((modalBtn, i) => {
-//     modalBtn.addEventListener('click', () => {
-//         modal(i)
-//     })
-// })
+modalBtns.forEach((modalBtn, i) => {
+    modalBtn.addEventListener('click', () => {
+        modal(i)
+    })
+})
 
-// modalCloses.forEach((modalClose) => {
-//     modalClose.addEventListener('click', () => {
-//         modalViews.forEach((modalView) => {
-//             modalView.classList.remove('active-modal')
-//         })
-//     })
-// })
+modalCloses.forEach((modalClose) => {
+    modalClose.addEventListener('click', () => {
+        modalViews.forEach((modalView) => {
+            modalView.classList.remove('active-modal')
+        })
+    })
+})
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 // let swiperPortfolio = new Swiper('.portfolio__container', {
@@ -185,7 +185,7 @@ function scrollActive(){
         }
     })
 }
-window.addEventListener('scroll', scrollActive)
+// window.addEventListener('scroll', scrollActive)
 
 /*==================== CHANGE BACKGROUND HEADER ====================*/ 
 function scrollHeader(){
