@@ -4,18 +4,18 @@
         <div class="footer__container container grid">
             <div>
                 <h1 class="footer__title">Fiit Protection Internationale</h1>
-                <span class="footer__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem maxime aliquid harum molestias sit. Doloremque reiciendis labore voluptatibus ea, corrupti accusantium qui ab ratione neque, magni maxime nesciunt dignissimos dolorem.</span>
+                <span class="footer__subtitle">L’entreprise FIIT PROTECTION INTERNATIONALE est une société SUARL sénégalaise, dynamique, née d’une véritable passion pour la conception et la sécurité. Notre savoir-faire et nos compétences reposent sur un bureau d’études, sur le terrain et des personnels expérimentés et motivés.</span>
             </div>
             <div>
                 <h3 class="footer__title--section">Liens</h3>
 
                 <ul class="footer__links">
                     <li>
+                        <a href="#portfolio" class="footer__link">L'agence</a>
+                    </li>
+                    <li>
                         <a href="#services" class="footer__link">Nos Services</a>
                     </li>
-                    {{-- <li>
-                        <a href="#portfolio" class="footer__link">Portfolio</a>
-                    </li> --}}
                     <li>
                         <a href="#contact" class="footer__link">Contactez nous</a>
                     </li>
