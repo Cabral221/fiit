@@ -4,14 +4,30 @@
 // Variables
 @import 'variables';
 
-// Bootstrap
-// @import '~bootstrap/scss/bootstrap';
-
 // Nav
 @import "nav";
 
-
 /*==================== HOME ====================*/
+.swiper__carousel {
+    width: auto;
+    height: 600px;
+    color: var(--first-color-alt);
+    
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3rem;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .swiper-button-next,
+    .swiper-button-prev{
+        color: var(--first-color-alt);
+    }
+}  
+
 .home__container{
     gap: 1rem;
 }
@@ -713,16 +729,16 @@
     padding: 1rem 0;
     color: #000;
     font-size: 1.5rem;
-
+    
     & input{
         padding: 0.50rem;
         height: 35px;
         background-color: white;
         border: 0;
         border-radius: 5px 0 0 5px;
-
+        
     }
-
+    
     & button{
         border: 0;
         height: 35px;
@@ -786,29 +802,29 @@
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
     }
-
+    
     .nav__menu{
         padding: 2rem .25rem 4rem;
     }
     .nav__list{
         column-gap: 0;
     }
-
+    
     .home__content{
         grid-template-columns: .25fr 3fr;
     }
     .home__blob{
         width: 180px;
     }
-
+    
     .skills__title{
         font-size: var(--normal-font-size);
     }
-
+    
     .qualification__data{
         gap: .5rem;
     }
-
+    
     .services__container{
         grid-template-columns: max-content;
         justify-content: center;
@@ -819,11 +835,11 @@
     .services__modal{
         padding: 0 .5rem;
     }
-
+    
     .project__img{
         width: 200px;
     }
-
+    
     .testimonial__data,
     .testimonial__header{
         flex-direction: column;
@@ -854,7 +870,7 @@
         order: 1;
         justify-self: center;
     }
-
+    
     .about__container,
     .skills__container,
     .portfolio__content,
@@ -863,7 +879,7 @@
     .footer__container{
         grid-template-columns: repeat(2, 1fr);
     }
-
+    
     .qualification__sections{
         display: grid;
         grid-template-columns: .6fr;
@@ -875,25 +891,25 @@
     .container{
         margin-left: auto;
         margin-right: auto;
-        max-width: 1080px;
+        max-width: 1180px;
     }
-
+    
     body{
         margin: 0;
     }
-
+    
     .section{
         padding: 6rem 0 2rem;
     }
     .section__subtitle{
         margin-bottom: 4rem;
     }
-
+    
     .header{
         top: 0;
         bottom: initial;
     }
-
+    
     .header,
     .main,
     .footer__container{
@@ -902,7 +918,7 @@
     .main{
         margin-top: 5rem;
     }
-
+    
     .nav{
         height: calc(var(--header-height) + 1.5rem);
         column-gap: 1rem;
@@ -926,7 +942,7 @@
     .change-theme{
         margin: 0;
     }
-
+    
     .home__container{
         row-gap: 5rem;
     }
@@ -943,7 +959,7 @@
     .home__scroll-button{
         margin-left: 3rem;
     }
-
+    
     .about__container{
         column-gap: 5rem;
     }
@@ -959,7 +975,7 @@
     .about__buttons{
         justify-content: initial;
     }
-
+    
     .qualification__tabs{
         justify-content: center;
     }
@@ -969,7 +985,7 @@
     .qualification__sections{
         grid-template-columns: .5fr;
     }
-
+    
     .services__container{
         grid-template-columns: repeat(3, 218px);
         justify-content: center;
@@ -983,14 +999,14 @@
     .services__modal-content{
         width: 450px;
     }
-
+    
     .portfolio__img{
         width: 320px;
     }
     .portfolio__content{
         align-items: center;
     }
-
+    
     .project{
         text-align: initial;
     }
@@ -1007,10 +1023,9 @@
     .project__data{
         padding-top: .8rem;
     }
-
+    
     .footer__container{
         grid-template-columns: repeat(3, 1fr);
-        max-width: 1080px;
     }
     .footer__bg{
         padding: 3rem 0 3.5rem;
@@ -1034,18 +1049,18 @@
     .footer__container{
         padding: 0;
     }
-
+    
     .home__blob{
         width: 320px;
     }
     .home__social{
         transform: translateX(-6rem);
     }
-
+    
     .services__container{
         grid-template-columns: repeat(3, 238px);
     }
-
+    
     .portfolio__content{
         column-gap: 5rem;
     }
@@ -1061,7 +1076,7 @@
     .swiper-container-horizontal > .swiper-pagination-bullets{
         bottom: -4.5rem;
     }
-
+    
     .contact__form{
         width: 460px;
     }

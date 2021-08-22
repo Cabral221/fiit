@@ -1,8 +1,14 @@
+// import Swiper JS
+import Swiper, {Navigation} from 'swiper';
+// import Swiper styles
+import 'swiper/swiper-bundle.css';
+
+
 /**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
- */
+* First we will load all of this project's JavaScript dependencies which
+* includes Vue and other libraries. It is a great starting point when
+* building robust, powerful web applications using Vue and Laravel.
+*/
 
 require('../bootstrap');
 require('../plugins');
@@ -39,13 +45,38 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
+/*==================== Home Carousel SWIPER  ====================*/
+
+Swiper.use([Navigation]);
+const swiperCarousel = new Swiper('.swiper__carousel', {
+    // Optional parameters
+    loop: true,
+    
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    
+    // And if we need scrollbar
+    scrollbar: {
+        el: '.swiper-scrollbar',
+    },
+})
+
 /*==================== ACCORDION SKILLS ====================*/
 // const skillsContent = document.getElementsByClassName('skills__content'),
 // skillsHeader = document.querySelectorAll('.skills__header')
 
 // function toggleSkills(){
 //     let itemClass = this.parentNode.className 
-    
+
 //     for (let i = 0; i < skillsContent.length; i++) {
 //         skillsContent[i].className = 'skills__content skills__close'
 //     }
@@ -79,27 +110,27 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 // })
 
 /*==================== SERVICES MODAL ====================*/
-// const modalViews = document.querySelectorAll('.services__modal'),
-//       modalBtns = document.querySelectorAll('.services__button'),
-//       modalCloses = document.querySelectorAll('.services__modal-close')
+const modalViews = document.querySelectorAll('.services__modal'),
+      modalBtns = document.querySelectorAll('.services__button'),
+      modalCloses = document.querySelectorAll('.services__modal-close')
 
-// let modal = function (modalClick) {
-//     modalViews[modalClick].classList.add('active-modal')
-// }
+let modal = function (modalClick) {
+    modalViews[modalClick].classList.add('active-modal')
+}
 
-// modalBtns.forEach((modalBtn, i) => {
-//     modalBtn.addEventListener('click', () => {
-//         modal(i)
-//     })
-// })
+modalBtns.forEach((modalBtn, i) => {
+    modalBtn.addEventListener('click', () => {
+        modal(i)
+    })
+})
 
-// modalCloses.forEach((modalClose) => {
-//     modalClose.addEventListener('click', () => {
-//         modalViews.forEach((modalView) => {
-//             modalView.classList.remove('active-modal')
-//         })
-//     })
-// })
+modalCloses.forEach((modalClose) => {
+    modalClose.addEventListener('click', () => {
+        modalViews.forEach((modalView) => {
+            modalView.classList.remove('active-modal')
+        })
+    })
+})
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 // let swiperPortfolio = new Swiper('.portfolio__container', {
@@ -141,12 +172,12 @@ const sections = document.querySelectorAll('section[id]')
 
 function scrollActive(){
     const scrollY = window.pageYOffset
-
+    
     sections.forEach(current =>{
         const sectionHeight = current.offsetHeight
         const sectionTop = current.offsetTop - 50;
         sectionId = current.getAttribute('id')
-
+        
         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
             document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link')
         }else{
@@ -154,7 +185,7 @@ function scrollActive(){
         }
     })
 }
-window.addEventListener('scroll', scrollActive)
+// window.addEventListener('scroll', scrollActive)
 
 /*==================== CHANGE BACKGROUND HEADER ====================*/ 
 function scrollHeader(){
@@ -187,19 +218,19 @@ window.addEventListener('scroll', scrollUp)
 
 // We validate if the user previously chose a topic
 // if (selectedTheme) {
-  // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
+// If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
 //   document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
 //   themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme)
 // }
 
 // Activate / deactivate the theme manually with the button
 // themeButton.addEventListener('click', () => {
-    // Add or remove the dark / icon theme
-    // document.body.classList.toggle(darkTheme)
-    // themeButton.classList.toggle(iconTheme)
-    // We save the theme and the current icon that the user chose
-    // localStorage.setItem('selected-theme', getCurrentTheme())
-    // localStorage.setItem('selected-icon', getCurrentIcon())
+// Add or remove the dark / icon theme
+// document.body.classList.toggle(darkTheme)
+// themeButton.classList.toggle(iconTheme)
+// We save the theme and the current icon that the user chose
+// localStorage.setItem('selected-theme', getCurrentTheme())
+// localStorage.setItem('selected-icon', getCurrentIcon())
 // })
 
 
