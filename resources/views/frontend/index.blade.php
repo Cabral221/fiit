@@ -24,7 +24,6 @@
         <!-- If we need scrollbar -->
         <div class="swiper-scrollbar"></div>
     </div>
-
     
     <!--==================== SERVICES ====================-->
     <section class="services section" id="services">
@@ -269,6 +268,66 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!--==================== CONTACT US ====================-->
+    <section class="contact section container" id="contact">
+        <h2 class="section__title">Contactez Nous</h2>
+        <span class="section__subtitle">Entrez en contact avec l'agence</span>
+
+        <div class="contact__container container grid">
+            <div>
+                <div class="contact__information">
+                    <i class="uil uil-phone contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Téléphone</h3>
+                        <span class="contact__subtitle">+221 77 454 69 22</span>
+                    </div>
+                </div>
+                <div class="contact__information">
+                    <i class="uil uil-envelope contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Email</h3>
+                        <span class="contact__subtitle"> mactardiop35@gmail.com</span>
+                    </div>
+                </div>
+                <div class="contact__information">
+                    <i class="uil uil-map-marker contact__icon"></i>
+
+                    <div>
+                        <h3 class="contact__title">Adresse</h3>
+                        <span class="contact__subtitle">Villa n° 110, cité Sentenac – Golf Nord-Est Guédiawaye Dakar </span>
+                    </div>
+                </div>
+            </div>
+
+            <form action="#" class="contact__form grid">
+                <div class="contact__inputs grid">
+                    <div class="contact__content">
+                        <label for="name" class="contact__label">Nom</label>
+                        <input type="text" name="" id="" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="name" class="contact__label">Email</label>
+                        <input type="email" name="" id="" class="contact__input">
+                    </div>
+                </div>
+                
+                <div class="contact__content">
+                    <label for="name" class="contact__label">Message</label>
+                    <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                </div>
+
+                <div>
+                    <a href="#" class="button button--flex">
+                        Envoyé Message
+                        <i class="uil uil-message button__icon"></i>
+                    </a>
+                </div>
+            </form>
         </div>
     </section>
 
