@@ -11,7 +11,7 @@
 
                 <ul class="footer__links">
                     <li>
-                        <a href="#portfolio" class="footer__link">L'agence</a>
+                        <a href="#about" class="footer__link">L'agence</a>
                     </li>
                     <li>
                         <a href="#services" class="footer__link">Nos Services</a>
@@ -32,7 +32,7 @@
                     </form>                    
                 </div>
 
-                <h3 class="footer__title--section">Retrouver nous sur les réseaux sociaux</h3>
+                <h3 class="footer__title--section">Retrouver nous sur</h3>
 
                 <a href="https://www.facebook.com/" target="_blank" class="footer__social">
                     <i class="uil uil-facebook-f"></i>

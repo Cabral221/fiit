@@ -198,6 +198,15 @@
     justify-content: center;
 }
 
+.about__content{
+    text-align: center;
+    
+    .about__title{
+        text-align: center;
+        padding: 2rem 1rem;
+    }
+}
+
 /*==================== SKILLS ====================*/
 .skills__container{
     row-gap: 0;
