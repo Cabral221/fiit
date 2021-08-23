@@ -35,19 +35,19 @@
             
             <div class="about__data">
                 <h2 class="about__title">Monsieur Mactar Diop</h2>
-                <p class="about__description">Président et directeur général</p>
+                <p class="about__description">Gérant</p>
 
                 <div class="about__info">
                     <div>
-                        <span class="about__info-title">03+</span>
+                        <span class="about__info-title">22+</span>
                         <span class="about__info-name">Années <br> d'experiences</span>
                     </div>
                     <div>
-                        <span class="about__info-title">02+</span>
+                        <span class="about__info-title">00+</span>
                         <span class="about__info-name">Agents <br> formés</span>
                     </div>
                     <div>
-                        <span class="about__info-title">01+</span>
+                        <span class="about__info-title">00+</span>
                         <span class="about__info-name">sociétés <br> partenaires</span>
                     </div>
                 </div>
@@ -375,6 +375,23 @@
                 </div>
             </form>
         </div>
+
+        <div class="contact__map">
+            @map([
+                'lat' => 14.782549217596985,
+                'lng' => -17.393616857949606,
+                'zoom' => 17,
+                'markers' => [
+                    [
+                        'title' => 'FIIT PROTECTION INTERNATIONNALE',
+                        'lat' => 14.782549217596985,
+                        'lng' => -17.393616857949606,
+                        'url' => 'https://fiit-protection,com',
+                    ],
+                ],
+            ])
+        </div>
     </section>
+
 
 @endsection

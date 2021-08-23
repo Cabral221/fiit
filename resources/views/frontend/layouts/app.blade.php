@@ -18,6 +18,7 @@
     
     <link href="{{ mix('css/frontend.css') }}" rel="stylesheet">
     <livewire:styles />
+    @mapstyles
     @stack('after-styles')
 </head>
 <body class="dark-theme">
@@ -53,6 +54,7 @@
     
 
     <livewire:scripts />
+    @mapscripts
     @stack('after-scripts')
 </body>
 </html>
