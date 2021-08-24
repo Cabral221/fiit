@@ -4,15 +4,15 @@
 
 @section('content')
     <!-- Slider main container -->
-    <div class="swiper-container swiper__carousel">
+    <section class="swiper-container swiper__carousel" id="home">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
             <!-- Slides -->
-            <div class="swiper-slide" style="background-image: url({{ asset('img/slide_1.jpeg') }});">FIIT Protection Internationale</div>
-            <div class="swiper-slide" style="background-image: url({{ asset('img/slide_2.jpeg') }});">FIIT Protection Internationale</div>
-            <div class="swiper-slide" style="background-image: url({{ asset('img/slide_3.jpeg') }});">FIIT Protection Internationale</div>
-            <div class="swiper-slide" style="background-image: url({{ asset('img/slide_4.jpeg') }});">FIIT Protection Internationale</div>
-            <div class="swiper-slide" style="background-image: url({{ asset('img/slide_5.jpeg') }});">FIIT Protection Internationale</div>
+            <div class="swiper-slide" style="background-image: url({{ asset('img/slide_1.jpeg') }});"></div>
+            <div class="swiper-slide" style="background-image: url({{ asset('img/slide_2.jpeg') }});"></div>
+            <div class="swiper-slide" style="background-image: url({{ asset('img/slide_3.jpeg') }});"></div>
+            <div class="swiper-slide" style="background-image: url({{ asset('img/slide_4.jpeg') }});"></div>
+            <div class="swiper-slide" style="background-image: url({{ asset('img/slide_5.jpeg') }});"></div>
         </div>
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
@@ -23,7 +23,53 @@
         
         <!-- If we need scrollbar -->
         <div class="swiper-scrollbar"></div>
-    </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+        <h2 class="section__title">A propos de l'agence</h2>
+        <span class="section__subtitle">Présentation</span>
+        
+        <div class="about__container container grid">
+            <img src="{{ asset('img/pdg.jpeg') }}" alt="Président" class="about__img">
+            
+            <div class="about__data">
+                <h2 class="about__title">Monsieur Mactar Diop</h2>
+                <p class="about__description">Gérant</p>
+
+                <div class="about__info">
+                    <div>
+                        <span class="about__info-title">22+</span>
+                        <span class="about__info-name">Années <br> d'experiences</span>
+                    </div>
+                    <div>
+                        <span class="about__info-title">00+</span>
+                        <span class="about__info-name">Agents <br> formés</span>
+                    </div>
+                    <div>
+                        <span class="about__info-title">00+</span>
+                        <span class="about__info-name">sociétés <br> partenaires</span>
+                    </div>
+                </div>
+                
+                <div class="about__buttons">
+                    <a download="" href="{{ asset('pdf/CV-Mactar-Diop.pdf') }}" class="button nutton--flex">
+                        Télécharge mon CV<i class="uil uil-download-alt button__icon"></i>
+                    </a>
+                </div>
+                <br>
+                <p class="about__description">L’entreprise FIIT PROTECTION INTERNATIONALE est une société SUARL sénégalaise, dynamique, née d’une véritable passion pour la conception et la sécurité. Notre savoir-faire et nos compétences reposent sur un bureau d’études, sur le terrain et des personnels expérimentés et motivés.</p>
+            </div>
+        </div>
+        
+        <div class="about__content container">
+            <h2 class="about__title">Historique et Date de création</h2>
+            <p class="about__description">FIIT PROTECTION INTERNATIONALE a fourni aux instances compétentes les pièces justificatives en application aux actes uniformes sur le droit commercial général et ont été vérifiée par le greffier en chef soussigné qui a procédé à l’inscription au registre de commerce le 26/09/2018 sous le numéro RCCM N° SN DKR 2018B 25776 avec comme NINEA le numéro 007024839..</p>
+        
+            <h2 class="about__title">NOS METHODES DE TRAVAIL</h2>
+            <p class="about__description">Nous adoptons notre mode de travail en fonction de la mission qui nous est confiée. De façon générale, nous procédons comme suit : <br> Notre personnel en tenue, a essentiellement un rôle de prévention et de dissuasion. Nos agents ont des expertises compte tenu de leur formation antérieur et un savoir-faire qui leur facilite le travail d’équipe, ainsi ils  peuvent  demander un renfort auprès de leurs collègues; en cas de situation extrême ou de violente altercation nos agents peuvent alerter les services de la police nationale, la gendarmerie, les pompiers...<br> Dans tous les cas notre personnel est tenu d’éviter un usage abusif de la violence.</p>
+        </div>
+    </section>
     
     <!--==================== SERVICES ====================-->
     <section class="services section" id="services">
@@ -329,6 +375,23 @@
                 </div>
             </form>
         </div>
+
+        <div class="contact__map">
+            @map([
+                'lat' => 14.782549217596985,
+                'lng' => -17.393616857949606,
+                'zoom' => 17,
+                'markers' => [
+                    [
+                        'title' => 'FIIT PROTECTION INTERNATIONNALE',
+                        'lat' => 14.782549217596985,
+                        'lng' => -17.393616857949606,
+                        'url' => 'https://fiit-protection,com',
+                    ],
+                ],
+            ])
+        </div>
     </section>
+
 
 @endsection

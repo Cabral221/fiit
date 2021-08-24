@@ -3,7 +3,7 @@
     <div class="footer__bg">
         <div class="footer__container container grid">
             <div>
-                <h1 class="footer__title">Fiit Protection Internationale</h1>
+                <h1 class="footer__title">FIIT Protection Internationale</h1>
                 <span class="footer__subtitle">L’entreprise FIIT PROTECTION INTERNATIONALE est une société SUARL sénégalaise, dynamique, née d’une véritable passion pour la conception et la sécurité. Notre savoir-faire et nos compétences reposent sur un bureau d’études, sur le terrain et des personnels expérimentés et motivés.</span>
             </div>
             <div>
@@ -11,7 +11,7 @@
 
                 <ul class="footer__links">
                     <li>
-                        <a href="#portfolio" class="footer__link">L'agence</a>
+                        <a href="#about" class="footer__link">L'agence</a>
                     </li>
                     <li>
                         <a href="#services" class="footer__link">Nos Services</a>
@@ -32,7 +32,7 @@
                     </form>                    
                 </div>
 
-                <h3 class="footer__title--section">Retrouver nous sur les réseaux sociaux</h3>
+                <h3 class="footer__title--section">Retrouver nous sur</h3>
 
                 <a href="https://www.facebook.com/" target="_blank" class="footer__social">
                     <i class="uil uil-facebook-f"></i>
@@ -48,6 +48,6 @@
             </div>
         </div>
 
-        <p class="footer__copy">&#169; Fiit Protection Internationale. Tous droits réservés ! By <span><a href="https://cabral221.github.io" target="_blank">@Cabral221</a></span></p>
+        <p class="footer__copy">&#169; FIIT Protection Internationale. Tous droits réservés ! By <span><a href="https://cabral221.github.io" target="_blank">@Cabral221</a></span></p>
     </div>
 </footer>
