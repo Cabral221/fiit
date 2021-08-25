@@ -31,11 +31,13 @@
         <span class="section__subtitle">Présentation</span>
         
         <div class="about__container container grid">
-            <img src="{{ asset('img/pdg.jpeg') }}" alt="Président" class="about__img">
+            <div class="about__dg">
+                <img src="{{ asset('img/pdg.jpeg') }}" alt="Président" class="about__img">
+                <h2 class="about__title">Monsieur Mactar Diop</h2>
+                <p class="about__subtitle">Gérant</p>
+            </div>
             
             <div class="about__data">
-                <h2 class="about__title">Monsieur Mactar Diop</h2>
-                <p class="about__description">Gérant</p>
 
                 <div class="about__info">
                     <div>
@@ -43,11 +45,11 @@
                         <span class="about__info-name">Années <br> d'experiences</span>
                     </div>
                     <div>
-                        <span class="about__info-title">00+</span>
+                        <span class="about__info-title">250+</span>
                         <span class="about__info-name">Agents <br> formés</span>
                     </div>
                     <div>
-                        <span class="about__info-title">00+</span>
+                        <span class="about__info-title">02+</span>
                         <span class="about__info-name">sociétés <br> partenaires</span>
                     </div>
                 </div>
@@ -64,12 +66,98 @@
         
         <div class="about__content container">
             <h2 class="about__title">Historique et Date de création</h2>
-            <p class="about__description">FIIT PROTECTION INTERNATIONALE a fourni aux instances compétentes les pièces justificatives en application aux actes uniformes sur le droit commercial général et ont été vérifiée par le greffier en chef soussigné qui a procédé à l’inscription au registre de commerce le 26/09/2018 sous le numéro RCCM N° SN DKR 2018B 25776 avec comme NINEA le numéro 007024839..</p>
+            <p class="about__subtitle">FIIT PROTECTION INTERNATIONALE a fourni aux instances compétentes les pièces justificatives en application aux actes uniformes sur le droit commercial général et ont été vérifiée par le greffier en chef soussigné qui a procédé à l’inscription au registre de commerce le 26/09/2018 sous le numéro RCCM N° SN DKR 2018B 25776 avec comme NINEA le numéro 007024839..</p>
         
             <h2 class="about__title">NOS METHODES DE TRAVAIL</h2>
-            <p class="about__description">Nous adoptons notre mode de travail en fonction de la mission qui nous est confiée. De façon générale, nous procédons comme suit : <br> Notre personnel en tenue, a essentiellement un rôle de prévention et de dissuasion. Nos agents ont des expertises compte tenu de leur formation antérieur et un savoir-faire qui leur facilite le travail d’équipe, ainsi ils  peuvent  demander un renfort auprès de leurs collègues; en cas de situation extrême ou de violente altercation nos agents peuvent alerter les services de la police nationale, la gendarmerie, les pompiers...<br> Dans tous les cas notre personnel est tenu d’éviter un usage abusif de la violence.</p>
+            <p class="about__subtitle">Nous adoptons notre mode de travail en fonction de la mission qui nous est confiée. De façon générale, nous procédons comme suit : <br> Notre personnel en tenue, a essentiellement un rôle de prévention et de dissuasion. Nos agents ont des expertises compte tenu de leur formation antérieur et un savoir-faire qui leur facilite le travail d’équipe, ainsi ils  peuvent  demander un renfort auprès de leurs collègues; en cas de situation extrême ou de violente altercation nos agents peuvent alerter les services de la police nationale, la gendarmerie, les pompiers...<br> Dans tous les cas notre personnel est tenu d’éviter un usage abusif de la violence.</p>
+        
+            <div class="skills__container grid">
+                <div>
+                    <!--==================== SKILLS 1 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-check-circle skills__icon"></i>
+                            
+                            <div>
+                                <h1 class="skills__titles">Pourquoi nous ?</h1>
+                            </div>
+    
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+    
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <p>L’entreprise FIIT PROTECTION INTERNATIONALE est constituée des agents de sécurités et des adeptes d’arts martiaux disposés á mettre en œuvre leurs compétences afin de répondre à vos besoins de sécurités </p>
+                                <p>L’entreprise vous accompagne, identifie l’ensemble de vos besoins et vous propose une large gamme de solutions, pour vous permettre de vous adapter rapidement et efficacement aux évolutions du marché et obtenir un avantage compétitif durable.
+                                    Nous proposons à nos clients des services les plus complètes possibles pour améliorer leur sécurité et faciliter leur travail.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!--==================== SKILLS 2 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-check-circle skills__icon"></i>
+                            
+                            <div>
+                                <h1 class="skills__titles">Notre politique</h1>
+                            </div>
+    
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+    
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <p>La politique de FIIT PROTECT INTERNATIONALE est axée sur l’avenir.</p>
+                                <p><span class="skills__line">*Professionnelle :</span> FIIT PROTECTION INTERNATIONALE met un point d’honneur a équipé ses agents des dernières nouveautés techniques afin d’effectuer un travail dans les meilleurs conditions possibles (présentement FPI dispose d’armes à feux, de bombe a gaz, de matraques électriques...)</p>
+                                <p><span class="skills__line">*Formation :</span> Nos agents sont tous, soit des agents ayant fait au minimum deux (2) ans de services militaire ou paramilitaire, soit des adeptes d’arts martiaux avec au minimum le grade de 1er DAN dans la discipline respective. Il faut aussi préciser que le personnel est régulièrement formé et recyclé aux nouvelles techniques de sécurité.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div>
+                    <!--==================== SKILLS 3 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-check-circle skills__icon"></i>
+                            
+                            <div>
+                                <h1 class="skills__titles">Nos moyens</h1>
+                            </div>
+    
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+    
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <h3 class="skills__line">Moyens matériels</h3>
+                                <p><span class="skills__line">*Cahier de d’anomalie :</span> Il permet une traçabilité des évènements chronologiques de la mission de l’agent. Effectivement, l’agent doit y noter sa prise de services, l’ensemble des évènements qui se sont déroulés durant son service et bien entendu, sa fin de service. Cela nous permet d’avoir écrite des évènements qui se passent sur son site, et pour nous, c’est un excellent moyen de contrôler notre personnel. </p>
+                                <p><span class="skills__line">*Téléphone portable :</span> FIIT PROTECTION INTERNATIONALE mettra en place un système de communication qui permettra à l’agent d’être joignable tout au long de son service aussi bien pour les responsables de FIIT PROTECTION INTERNATIONALE ou de l’agent sur le site.</p>
+
+                                <h3 class="skills__line">Moyens humains</h3>
+                                <p><span class="skills__line">Qualification des agents :</span> FIIT PROTECTION INTERNATIONALE mettra à la disposition de ses clients des agents de prévention et de sécurité; l’ensemble de son personnel possède un casier judiciaire vierge. Nos agents sont soit des anciens militaires ou des adeptes d’arts martiaux 1er dan comme grade minimum de la discipline pratiquée par l’agent concerné.</p>
+                                <p><span class="skills__line">Tenue des agents :</span> La tenue des agents sera composée en période de : 
+                                    <br><span class="skills__line"> *Chaleur : </span> 
+                                    <br> -  T-shirt noir avec écusson FIIT PROTECTION INTERNATIONALE  
+                                    <br> -  Treillis  
+                                    <br> -  Rangers  
+                                    <br> -  Lacoste  
+                                    <br><span class="skills__line"> *Fraicheur : </span>
+                                    <br> -  Un pull noir avec écusson de FIIT PROTECTION INTERNATIONALE  
+                                    <br> -  Treillis  
+                                    <br> -  Rangers  
+                                    <br> -  Chemise (longue ou courte) ; casquette 
+                                    <br> -  Costume cravate (pour les évènementiels) </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
+
     
     <!--==================== SERVICES ====================-->
     <section class="services section" id="services">
@@ -77,9 +165,7 @@
         <span class="section__subtitle">Ce que nous offrons</span>
         
         <div class="services__container container grid">
-            <p class="services__describe">L’entreprise  vous  accompagne,  identifie  l’ensemble  de  vos  besoins  et  vous  propose  une  large  gamme de 
-                solutions, pour vous permettre de vous adapter rapidement et efficacement aux évolutions du marché et 
-                obtenir un avantage compétitif durable.</p>
+            <p class="services__describe">L’entreprise vous accompagne, identifie l’ensemble de vos besoins et vous propose une large gamme de solutions, pour vous permettre de vous adapter rapidement et efficacement aux évolutions du marché et obtenir un avantage compétitif  durable.</p>
 
             <!--==================== SERVICE 1 ====================-->
             <div class="services__content">
@@ -337,7 +423,7 @@
 
                     <div>
                         <h3 class="contact__title">Email</h3>
-                        <span class="contact__subtitle"> mactardiop35@gmail.com</span>
+                        <span class="contact__subtitle"> fiitprotectioninternationnale@gmail.com</span>
                     </div>
                 </div>
                 <div class="contact__information">
