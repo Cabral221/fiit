@@ -403,6 +403,95 @@
         </div>
     </section>
 
+    <!--==================== SERVICES ====================-->
+    <section class="gallery section" id="gallery">
+        <h2 class="section__title">Gallerie</h2>
+        <span class="section__subtitle">FPI en images</span>
+        
+        <div class="swiper__container container">
+            <div class="swiper mySwiperGalleryImg swiper-initialized swiper-ios">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/20.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/21.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/22.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/23.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/1.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/2.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/3.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/4.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/5.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/6.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/7.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/8.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/9.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/10.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/11.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/12.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/13.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/14.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/15.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/16.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/17.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/18.jpeg') }}" alt="Image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('gallery/imgs/19.jpeg') }}" alt="Image">
+                    </div>
+                    
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                {{-- <div class="swiper-scrollbar"></div> --}}
+                <div class="swiper-pagination"></div>
+                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+            </div>
+        </div>
+      
+    </section>
+
     <!--==================== CONTACT US ====================-->
     <section class="contact section container" id="contact">
         <h2 class="section__title">Contactez Nous</h2>

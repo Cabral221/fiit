@@ -1,5 +1,5 @@
 // import Swiper JS
-import Swiper, {Navigation} from 'swiper';
+import Swiper, {Navigation, Pagination} from 'swiper';
 // import Swiper styles
 import 'swiper/swiper-bundle.css';
 
@@ -48,6 +48,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 /*==================== Home Carousel SWIPER  ====================*/
 
 Swiper.use([Navigation]);
+Swiper.use([Pagination]);
 const swiperCarousel = new Swiper('.swiper__carousel', {
     // Optional parameters
     loop: true,
@@ -89,25 +90,35 @@ skillsHeader.forEach((el) => {
     el.addEventListener('click', toggleSkills)
 })
 
-/*==================== QUALIFICATION TABS ====================*/
-// const tabs = document.querySelectorAll('[data-target]'),
-//       tabContents = document.querySelectorAll('[data-content]')
+/*==================== Swiper Gallery Images ====================*/
 
-// tabs.forEach(tab => {
-//     tab.addEventListener('click', () => {
-//         const target = document.querySelector(tab.dataset.target)
-
-//         tabContents.forEach(tabContent => {
-//             tabContent.classList.remove('qualification__active')
-//         })
-//         target.classList.add('qualification__active')
-
-//         tabs.forEach(tab => {
-//             tab.classList.remove('qualification__active')
-//         })
-//         tab.classList.add('qualification__active')
-//     })
-// })
+const swiperGalleryImg = new Swiper(".mySwiperGalleryImg", {
+    slidesPerView: 1,
+    centeredSlides: true,
+    slidesPerGroupSkip: 1,
+    grabCursor: true,
+    keyboard: {
+      enabled: true,
+    },
+    breakpoints: {
+      769: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+    },
+    scrollbar: {
+      el: ".swiper-scrollbar",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      type: 'bullets',
+      clickable: true,
+    },
+  });
 
 /*==================== SERVICES MODAL ====================*/
 const modalViews = document.querySelectorAll('.services__modal'),
