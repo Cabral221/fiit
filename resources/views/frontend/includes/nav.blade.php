@@ -22,13 +22,13 @@
                     </a>
                 </li>
                 <li class="nav__item">
-                    <a href="#contact" class="nav__link">
-                        <i class="uil uil-message nav__icon"></i> Contactez-nous
+                    <a href="#gallery" class="nav__link">
+                        <i class="uil uil-scenery nav__icon"></i> Gallerie
                     </a>
                 </li>
                 <li class="nav__item">
-                    <a href="#portfolio" class="nav__link">
-                        <i class="uil uil-scenery nav__icon"></i> Recrutement
+                    <a href="#contact" class="nav__link">
+                        <i class="uil uil-message nav__icon"></i> Contactez-nous
                     </a>
                 </li>
             </ul>
