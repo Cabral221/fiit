@@ -61,7 +61,7 @@ const swiperCarousel = new Swiper('.swiper__carousel', {
     },
     
     // Navigation arrows
-    navigation: false,
+    navigation: true,
     
     // And if we need scrollbar
     scrollbar: false,

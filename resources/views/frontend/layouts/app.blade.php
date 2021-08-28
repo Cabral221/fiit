@@ -25,13 +25,11 @@
     @include('frontend.includes.nav')
 
     <main class="main" id="main">
-        <div class="container">
-            @include('includes.partials.read-only')
-            @include('includes.partials.logged-in-as')
-            @include('includes.partials.announcements')
+        @include('includes.partials.read-only')
+        @include('includes.partials.logged-in-as')
+        @include('includes.partials.announcements')
             
-            @include('includes.partials.messages')
-        </div>
+        @include('includes.partials.messages')
         
         @yield('content')
     </main>

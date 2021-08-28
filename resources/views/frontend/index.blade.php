@@ -41,9 +41,6 @@
         </div>
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
-        
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
     </section>
 
     <!--==================== ABOUT ====================-->
@@ -422,13 +419,13 @@
         </div>
     </section>
 
-    <!--==================== SERVICES ====================-->
+    <!--==================== GALLERY iMAGES ====================-->
     <section class="gallery section" id="gallery">
         <h2 class="section__title">Gallerie</h2>
         <span class="section__subtitle">FPI en images</span>
         
         <div class="swiper__container container">
-            <div class="swiper mySwiperGalleryImg swiper-initialized swiper-ios">
+            <div class="swiper-container mySwiperGalleryImg swiper-ios">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="{{ asset('gallery/imgs/20.jpeg') }}" alt="Image">
@@ -503,9 +500,9 @@
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
-                {{-- <div class="swiper-scrollbar"></div> --}}
+                <div class="swiper-scrollbar"></div>
                 <div class="swiper-pagination"></div>
-                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                <span class="swiper-notification"></span>
             </div>
         </div>
       
