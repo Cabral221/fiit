@@ -27,8 +27,9 @@
                     <h3 class="footer__title--section">Newsletters</h3>
                     <p>Abonnez-vous à nos newsletters pour recevoir les dernières nouvelles et mises à jour.</p>
                     
-                    <form action="#" method="post" class="footer__form">
-                        <input type="email" placeholder="Enter your email"><button type="submit"><i class="uil uil-message"></i></button>
+                    <form action="{{ route('frontend.newsletter') }}" method="post" class="footer__form">
+                        @csrf
+                        <input type="email" name="email" placeholder="Enter your email"><button type="submit"><i class="uil uil-message"></i></button>
                     </form>                    
                 </div>
 
