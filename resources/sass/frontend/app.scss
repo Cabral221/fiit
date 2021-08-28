@@ -26,6 +26,36 @@
     .swiper-button-prev{
         color: var(--first-color-alt);
     }
+
+    .swiper-pagination-bullet-active{
+        background-color: var(--first-color);
+    }
+
+    .swiper__caption{
+        padding: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        border-radius: 10px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        
+        background-color: rgba(0, 0, 0, 0.473);
+        text-align: center;
+
+        .swiper__caption--title{
+            font-size: var(--h1-font-size);
+            margin-bottom: var(--mb-1-5);
+            color: var(--first-color);
+        }
+
+        .swiper__caption--subtitle{
+            font-size: var(--h2-font-size);
+            margin-bottom: var(--mb-0-5);
+        }
+    }
 }  
 
 .home__container{

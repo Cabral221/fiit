@@ -56,19 +56,15 @@ const swiperCarousel = new Swiper('.swiper__carousel', {
     // If we need pagination
     pagination: {
         el: '.swiper-pagination',
+        type: 'bullets',
         clickable: true,
     },
     
     // Navigation arrows
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
+    navigation: false,
     
     // And if we need scrollbar
-    scrollbar: {
-        el: '.swiper-scrollbar',
-    },
+    scrollbar: false,
 })
 
 /*==================== ACCORDION SKILLS ====================*/
