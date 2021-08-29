@@ -10,31 +10,31 @@
             <!-- Slides -->
             <div class="swiper-slide" style="background-image: url({{ asset('img/slide_1.jpeg') }});">
                 <div class="swiper__caption">
-                    <h1 class="swiper__caption--title">FIIT PROTECTION INTERNATIONNALE</h1>
+                    <h1 class="swiper__caption--title">FIIT PROTECTION INTERNATIONALE</h1>
                     <h3 class="swiper__caption--subtitle">Voir - Analyser - Juger - Agir</h3>
                 </div>
             </div>
             <div class="swiper-slide" style="background-image: url({{ asset('img/slide_2.jpeg') }});">
                 <div class="swiper__caption">
-                    <h1 class="swiper__caption--title">FIIT PROTECTION INTERNATIONNALE</h1>
+                    <h1 class="swiper__caption--title">FIIT PROTECTION INTERNATIONALE</h1>
                     <h3 class="swiper__caption--subtitle">Voir - Analyser - Juger - Agir</h3>
                 </div>
             </div>
             <div class="swiper-slide" style="background-image: url({{ asset('img/slide_3.jpeg') }});">
                 <div class="swiper__caption">
-                    <h1 class="swiper__caption--title">FIIT PROTECTION INTERNATIONNALE</h1>
+                    <h1 class="swiper__caption--title">FIIT PROTECTION INTERNATIONALE</h1>
                     <h3 class="swiper__caption--subtitle">Voir - Analyser - Juger - Agir</h3>
                 </div>
             </div>
             <div class="swiper-slide" style="background-image: url({{ asset('img/slide_4.jpeg') }});">
                 <div class="swiper__caption">
-                    <h1 class="swiper__caption--title">FIIT PROTECTION INTERNATIONNALE</h1>
+                    <h1 class="swiper__caption--title">FIIT PROTECTION INTERNATIONALE</h1>
                     <h3 class="swiper__caption--subtitle">Voir - Analyser - Juger - Agir</h3>
                 </div>
             </div>
             <div class="swiper-slide" style="background-image: url({{ asset('img/slide_5.jpeg') }});">
                 <div class="swiper__caption">
-                    <h1 class="swiper__caption--title">FIIT PROTECTION INTERNATIONNALE</h1>
+                    <h1 class="swiper__caption--title">FIIT PROTECTION INTERNATIONALE</h1>
                     <h3 class="swiper__caption--subtitle">Voir - Analyser - Juger - Agir</h3>
                 </div>
             </div>
@@ -528,7 +528,7 @@
 
                     <div>
                         <h3 class="contact__title">Email</h3>
-                        <span class="contact__subtitle"> fiitprotectioninternationnale@gmail.com</span>
+                        <span class="contact__subtitle"> fiitprotectioninternationale@gmail.com</span>
                     </div>
                 </div>
                 <div class="contact__information">
@@ -574,7 +574,7 @@
                 'zoom' => 17,
                 'markers' => [
                     [
-                        'title' => 'FIIT PROTECTION INTERNATIONNALE',
+                        'title' => 'FIIT PROTECTION INTERNATIONALE',
                         'lat' => 14.782549217596985,
                         'lng' => -17.393616857949606,
                         'url' => 'https://fiit-protection,com',

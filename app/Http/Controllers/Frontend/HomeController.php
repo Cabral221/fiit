@@ -30,7 +30,7 @@ class HomeController
             'email' => $request->email,
         ]);
 
-        Mail::to('fiitprotectioninternationnale@gmail.com')
+        Mail::to('fiitprotectioninternationale@gmail.com')
             ->send(new MailNewsletter($request->email));
 
         session()->flash('flash_success', 'Votre email a bien été enregistré, Merci pour l\'interêt');
