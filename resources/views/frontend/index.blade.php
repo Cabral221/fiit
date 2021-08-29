@@ -8,21 +8,39 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
             <!-- Slides -->
-            <div class="swiper-slide" style="background-image: url({{ asset('img/slide_1.jpeg') }});"></div>
-            <div class="swiper-slide" style="background-image: url({{ asset('img/slide_2.jpeg') }});"></div>
-            <div class="swiper-slide" style="background-image: url({{ asset('img/slide_3.jpeg') }});"></div>
-            <div class="swiper-slide" style="background-image: url({{ asset('img/slide_4.jpeg') }});"></div>
-            <div class="swiper-slide" style="background-image: url({{ asset('img/slide_5.jpeg') }});"></div>
+            <div class="swiper-slide" style="background-image: url({{ asset('img/slide_1.jpeg') }});">
+                <div class="swiper__caption">
+                    <h1 class="swiper__caption--title">FIIT PROTECTION INTERNATIONNALE</h1>
+                    <h3 class="swiper__caption--subtitle">Voir - Analyser - Juger - Agir</h3>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image: url({{ asset('img/slide_2.jpeg') }});">
+                <div class="swiper__caption">
+                    <h1 class="swiper__caption--title">FIIT PROTECTION INTERNATIONNALE</h1>
+                    <h3 class="swiper__caption--subtitle">Voir - Analyser - Juger - Agir</h3>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image: url({{ asset('img/slide_3.jpeg') }});">
+                <div class="swiper__caption">
+                    <h1 class="swiper__caption--title">FIIT PROTECTION INTERNATIONNALE</h1>
+                    <h3 class="swiper__caption--subtitle">Voir - Analyser - Juger - Agir</h3>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image: url({{ asset('img/slide_4.jpeg') }});">
+                <div class="swiper__caption">
+                    <h1 class="swiper__caption--title">FIIT PROTECTION INTERNATIONNALE</h1>
+                    <h3 class="swiper__caption--subtitle">Voir - Analyser - Juger - Agir</h3>
+                </div>
+            </div>
+            <div class="swiper-slide" style="background-image: url({{ asset('img/slide_5.jpeg') }});">
+                <div class="swiper__caption">
+                    <h1 class="swiper__caption--title">FIIT PROTECTION INTERNATIONNALE</h1>
+                    <h3 class="swiper__caption--subtitle">Voir - Analyser - Juger - Agir</h3>
+                </div>
+            </div>
         </div>
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
-        
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        
-        <!-- If we need scrollbar -->
-        <div class="swiper-scrollbar"></div>
     </section>
 
     <!--==================== ABOUT ====================-->
@@ -156,8 +174,6 @@
             </div>
         </div>
     </section>
-
-
     
     <!--==================== SERVICES ====================-->
     <section class="services section" id="services">
@@ -403,13 +419,13 @@
         </div>
     </section>
 
-    <!--==================== SERVICES ====================-->
+    <!--==================== GALLERY iMAGES ====================-->
     <section class="gallery section" id="gallery">
         <h2 class="section__title">Gallerie</h2>
         <span class="section__subtitle">FPI en images</span>
         
         <div class="swiper__container container">
-            <div class="swiper mySwiperGalleryImg swiper-initialized swiper-ios">
+            <div class="swiper-container mySwiperGalleryImg swiper-ios">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="{{ asset('gallery/imgs/20.jpeg') }}" alt="Image">
@@ -484,9 +500,9 @@
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
-                {{-- <div class="swiper-scrollbar"></div> --}}
+                <div class="swiper-scrollbar"></div>
                 <div class="swiper-pagination"></div>
-                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                <span class="swiper-notification"></span>
             </div>
         </div>
       

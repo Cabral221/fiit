@@ -18,7 +18,7 @@ body{
 }
 
 .main{
-    padding-top: 1rem;
+    padding-top: 0;
 }
 
 h1,h2,h3,h4{
@@ -100,6 +100,27 @@ img{
 // Self base boilerplate
 #breadcrumbs {
     background-color: #e9ecef;
+}
+
+.alert{
+    display: block;
+    padding: 10px 15px;
+    font-size: 1rem;
+
+    button{
+        padding: .2rem;
+        text-transform: uppercase;
+    }
+}
+
+.alert-success{
+    background-color: rgb(20, 145, 20);
+    color: #ffffff;
+}
+
+.alert-danger{
+    background-color: rgb(145, 20, 20);
+    color: #ffffff;
 }
 
 .alert.header-message {

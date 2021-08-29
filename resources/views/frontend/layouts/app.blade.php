@@ -22,25 +22,19 @@
     @stack('after-styles')
 </head>
 <body class="dark-theme">
-    <div id="app">
-        @include('frontend.includes.nav')
+    @include('frontend.includes.nav')
+
+    <main class="main" id="main">
+        @include('includes.partials.read-only')
+        @include('includes.partials.logged-in-as')
+        @include('includes.partials.announcements')
+            
         @include('includes.partials.messages')
-
-        <main class="main" id="main">
-            <div class="container">
-                @include('includes.partials.read-only')
-                @include('includes.partials.logged-in-as')
-                @include('includes.partials.announcements')
+        
+        @yield('content')
+    </main>
     
-                @include('includes.partials.messages')
-            </div>
-
-            @yield('content')
-        </main>
-
-        @include('frontend.includes.footer')
-
-    </div><!--app-->
+    @include('frontend.includes.footer')
 
     @stack('before-scripts')
     <!--==================== SCROLL TOP ====================-->

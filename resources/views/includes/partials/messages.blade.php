@@ -7,13 +7,13 @@
 @endif
 
 @if(session()->get('flash_success'))
-    <x-utils.alert type="success" class="header-message">
+    <x-utils.alert type="success" class="header-message alert alert-success">
         {{ session()->get('flash_success') }}
     </x-utils.alert>
 @endif
 
 @if(session()->get('flash_warning'))
-    <x-utils.alert type="warning" class="header-message">
+    <x-utils.alert type="warning" class="header-message alert ">
         {{ session()->get('flash_warning') }}
     </x-utils.alert>
 @endif
@@ -25,7 +25,7 @@
 @endif
 
 @if(session()->get('flash_danger'))
-    <x-utils.alert type="danger" class="header-message">
+    <x-utils.alert type="danger" class="header-message alert alert-danger">
         {{ session()->get('flash_danger') }}
     </x-utils.alert>
 @endif
