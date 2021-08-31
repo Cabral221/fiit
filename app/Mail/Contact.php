@@ -7,20 +7,24 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class Newsletter extends Mailable
+class Contact extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $emailSubscriber = "";
+    public $name;
+    public $email;
+    public $message;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($emailSubscriber)
+    public function __construct($name, $email, $message)
     {
-        $this->emailSubscriber = $emailSubscriber;
+        $this->name = $name;
+        $this->email = $email;
+        $this->message = $message;
     }
 
     /**
@@ -30,7 +34,7 @@ class Newsletter extends Mailable
      */
     public function build()
     {
-        return $this->subject('FIIT PROTECTION WEB : NOUVEAU INSCRIS NEWSLETTER')
-                    ->markdown('emails.news.letter');
+        return $this->subject('FIIT PROTECTION WEB : NOUVEAU MESSAGE DE ' . $this->name)
+                    ->markdown('emails.contact');
     }
 }

@@ -244,6 +244,10 @@
 .about__subtitle{
     text-align: center;
     margin-bottom: var(--mb-1-5);
+
+    p{
+        margin-bottom: var(--mb-0-5);
+    }
 }
 
 /*==================== SKILLS ====================*/
@@ -298,13 +302,13 @@
     p{
         margin-bottom: var(--mb-0-75);
     }
+}
     
-    .skills__line{
-        text-decoration: underline;
-        text-transform: uppercase;
-        color: var(--first-color-alt);
-        font-weight: bold;
-    }
+.skills__line{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: var(--first-color-alt);
+    font-weight: bold;
 }
 
 .skills__close .skills__list{
@@ -624,40 +628,9 @@
 /*==================== Swipper Gallery Image ====================*/
 
 .gallery{
-    .swiper__container{
-        background-color: #FFF;
-        position: relative;
-    }
-
-    .swiper {
-        width: 100%;
-        height: 500px;
-        color: var(--first-color-alt);
-    }
     
-    .swiper-slide {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-    }
-    
-    .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 500px;
-        object-fit: cover;
-        object-position: top;
-    }
-    
-    .swiper-button-next,
-    .swiper-button-prev{
-        color: var(--first-color-alt);
-    }
-
-    .swiper-pagination-bullet{
-        background-color: var(--first-color-alt);
+    .card{
+        background-color: transparent;
     }
 }
 
@@ -1197,10 +1170,7 @@
     .swiper-container-horizontal > .swiper-pagination-bullets{
         bottom: -4.5rem;
     }
-    
-    .contact__form{
-        width: 460px;
-    }
+
     .contact__inputs{
         grid-template-columns: repeat(2, 1fr);
     }

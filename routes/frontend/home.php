@@ -17,6 +17,9 @@ Route::get('/', [HomeController::class, 'index'])
 Route::post('/newsletter', [HomeController::class, 'news'])
     ->name('newsletter');
 
+Route::post('/contact', [HomeController::class, 'contact'])
+    ->name('contact');
+
 Route::get('terms', [TermsController::class, 'index'])
     ->name('pages.terms')
     ->breadcrumbs(function (Trail $trail) {
