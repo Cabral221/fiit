@@ -11,7 +11,7 @@
     <meta name="author" content="@yield('meta_author', 'Abdourahmane Diop')">
     @yield('meta')
     
-    !-- Global site tag (gtag.js) - Google Analytics -->
+    {{-- Global site tag (gtag.js) - Google Analytics --}}
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZLP76BZ7QD"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
