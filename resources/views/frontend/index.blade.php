@@ -567,88 +567,88 @@
             <h3 class="gallery__title">En Video (27)</h3>
              <div class="card-columns">
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/1.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/1.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/2.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/2.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/3.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/3.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/4.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/4.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/5.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/5.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/6.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/6.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/7.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/7.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/8.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/8.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/9.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/9.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/10.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/10.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/11.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/11.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/12.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/12.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/12.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/12.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/13.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/13.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/14.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/14.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/15.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/15.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/16.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/16.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/17.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/17.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/18.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/18.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/19.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/19.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/20.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/20.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/21.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/21.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/22.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/22.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/23.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/23.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/24.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/24.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/25.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/25.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/26.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/26.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
                 <div class="card">
-                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/27.mp4') }}" allowfullscreen></iframe></div>
+                    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="{{ asset('gallery/videos/27.mp4') }}" allowfullscreen sandbox></iframe></div>
                 </div>
             </div>
         </div>
