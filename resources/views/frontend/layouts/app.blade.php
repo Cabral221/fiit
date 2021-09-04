@@ -10,9 +10,19 @@
     <meta name="description" content="@yield('meta_description', appName())">
     <meta name="author" content="@yield('meta_author', 'Abdourahmane Diop')">
     @yield('meta')
-
+    
+    !-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZLP76BZ7QD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        
+        gtag('config', 'G-ZLP76BZ7QD');
+    </script>
+    
     @stack('before-styles')
-
+    
     <!--==================== UNICONS ====================-->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     
@@ -23,19 +33,19 @@
 </head>
 <body class="dark-theme">
     @include('frontend.includes.nav')
-
+    
     <main class="main" id="main">
         @include('includes.partials.read-only')
         @include('includes.partials.logged-in-as')
         @include('includes.partials.announcements')
-            
+        
         @include('includes.partials.messages')
         
         @yield('content')
     </main>
     
     @include('frontend.includes.footer')
-
+    
     @stack('before-scripts')
     <!--==================== SCROLL TOP ====================-->
     <a href="#" class="scrollup" id="scroll-up">
@@ -46,7 +56,7 @@
     <script src="{{ mix('js/vendor.js') }}"></script>
     <script src="{{ mix('js/frontend.js') }}"></script>
     
-
+    
     <livewire:scripts />
     @mapscripts
     @stack('after-scripts')

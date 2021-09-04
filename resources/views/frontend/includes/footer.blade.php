@@ -35,16 +35,12 @@
 
                 <h3 class="footer__title--section">Retrouver nous sur</h3>
 
-                <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                <a href="https://www.facebook.com/fiitprotection" target="_blank" class="footer__social">
                     <i class="uil uil-facebook-f"></i>
                 </a>
 
-                <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                <a href="https://www.instagram.com/fiitprotectioninternationale" target="_blank" class="footer__social">
                     <i class="uil uil-instagram"></i>
-                </a>
-
-                <a href="https://twitter.com/" target="_blank" class="footer__social">
-                    <i class="uil uil-twitter-alt"></i>
                 </a>
             </div>
         </div>
