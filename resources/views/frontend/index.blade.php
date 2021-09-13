@@ -520,7 +520,7 @@
         <span class="section__subtitle">FPI en images et vidéos</span>
         
         <div class="container">
-            <h3 class="gallery__title">En Image (40)</h3>
+            <h3 class="gallery__title">En Image (44)</h3>
             <div class="card-columns">
                 <div class="card"><img src="{{ asset('gallery/imgs/1.jpeg') }}" class="card-img-top" alt="Image"></div>
                 <div class="card"><img src="{{ asset('gallery/imgs/2.jpeg') }}" class="card-img-top" alt="Image"></div>
@@ -548,20 +548,24 @@
                 <div class="card"><img src="{{ asset('gallery/imgs/24.jpeg') }}" class="card-img-top" alt="Image"></div>
                 <div class="card"><img src="{{ asset('gallery/imgs/25.jpeg') }}" class="card-img-top" alt="Image"></div>
                 <div class="card"><img src="{{ asset('gallery/imgs/26.jpeg') }}" class="card-img-top" alt="Image"></div>
-                <div class="card"><img src="{{ asset('gallery/imgs/27.jpeg') }}" class="card-img-top" alt="Image"></div>
-                <div class="card"><img src="{{ asset('gallery/imgs/28.jpeg') }}" class="card-img-top" alt="Image"></div>
-                <div class="card"><img src="{{ asset('gallery/imgs/29.jpeg') }}" class="card-img-top" alt="Image"></div>
-                <div class="card"><img src="{{ asset('gallery/imgs/30.jpeg') }}" class="card-img-top" alt="Image"></div>
+                <div class="card"><img src="{{ asset('gallery/imgs/27-1.jpeg') }}" class="card-img-top" alt="Image"></div>
+                <div class="card"><img src="{{ asset('gallery/imgs/28-1.jpeg') }}" class="card-img-top" alt="Image"></div>
+                <div class="card"><img src="{{ asset('gallery/imgs/29-1.jpeg') }}" class="card-img-top" alt="Image"></div>
+                <div class="card"><img src="{{ asset('gallery/imgs/30-1.jpeg') }}" class="card-img-top" alt="Image"></div>
                 <div class="card"><img src="{{ asset('gallery/imgs/31.jpeg') }}" class="card-img-top" alt="Image"></div>
                 <div class="card"><img src="{{ asset('gallery/imgs/32.jpeg') }}" class="card-img-top" alt="Image"></div>
                 <div class="card"><img src="{{ asset('gallery/imgs/33.jpeg') }}" class="card-img-top" alt="Image"></div>
-                <div class="card"><img src="{{ asset('gallery/imgs/34.jpeg') }}" class="card-img-top" alt="Image"></div>
+                <div class="card"><img src="{{ asset('gallery/imgs/34-1.jpeg') }}" class="card-img-top" alt="Image"></div>
                 <div class="card"><img src="{{ asset('gallery/imgs/35.jpeg') }}" class="card-img-top" alt="Image"></div>
                 <div class="card"><img src="{{ asset('gallery/imgs/36.jpeg') }}" class="card-img-top" alt="Image"></div>
                 <div class="card"><img src="{{ asset('gallery/imgs/37.jpeg') }}" class="card-img-top" alt="Image"></div>
                 <div class="card"><img src="{{ asset('gallery/imgs/38.jpeg') }}" class="card-img-top" alt="Image"></div>
                 <div class="card"><img src="{{ asset('gallery/imgs/39.jpeg') }}" class="card-img-top" alt="Image"></div>
                 <div class="card"><img src="{{ asset('gallery/imgs/40.jpeg') }}" class="card-img-top" alt="Image"></div>
+                <div class="card"><img src="{{ asset('gallery/imgs/41.jpeg') }}" class="card-img-top" alt="Image"></div>
+                <div class="card"><img src="{{ asset('gallery/imgs/42.jpeg') }}" class="card-img-top" alt="Image"></div>
+                <div class="card"><img src="{{ asset('gallery/imgs/40.jpeg') }}" class="card-img-top" alt="Image"></div>
+                <div class="card"><img src="{{ asset('gallery/imgs/44.jpeg') }}" class="card-img-top" alt="Image"></div>
             </div>
 
             <h3 class="gallery__title">En Video (27)</h3>
