@@ -52,9 +52,9 @@ class HomeController
             'email' => $request->email,
             "message" => $request->message,
         ]);
-        
+
         Mail::to('fiitprotectioninternationale@gmail.com')
-        ->send(new MailContact($request->name, $request->email, $request->message));
+            ->send(new MailContact($request->name, $request->email, $request->message));
 
         session()->flash('flash_success', 'Votre message a bien été envoyé, nous vous répondrons dans les plus brefs delais.');
         return redirect()->route('frontend.index');

@@ -4,7 +4,10 @@
         <div class="footer__container container grid">
             <div>
                 <h1 class="footer__title">FIIT Protection Internationale</h1>
-                <span class="footer__subtitle">L’entreprise FIIT PROTECTION INTERNATIONALE est une société SUARL sénégalaise, dynamique, née d’une véritable passion pour la conception et la sécurité. Notre savoir-faire et nos compétences reposent sur un bureau d’études, sur le terrain et des personnels expérimentés et motivés.</span>
+                <span class="footer__subtitle">L’entreprise FIIT PROTECTION INTERNATIONALE est une société SUARL
+                    sénégalaise, dynamique, née d’une véritable passion pour la conception et la sécurité. Notre
+                    savoir-faire et nos compétences reposent sur un bureau d’études, sur le terrain et des personnels
+                    expérimentés et motivés.</span>
             </div>
             <div>
                 <h3 class="footer__title--section">Liens</h3>
@@ -26,11 +29,12 @@
                 <div>
                     <h3 class="footer__title--section">Newsletters</h3>
                     <p>Abonnez-vous à nos newsletters pour recevoir les dernières nouvelles et mises à jour.</p>
-                    
+
                     <form action="{{ route('frontend.newsletter') }}" method="post" class="footer__form">
                         @csrf
-                        <input type="email" name="email" placeholder="Enter your email"><button type="submit"><i class="uil uil-message"></i></button>
-                    </form>                    
+                        <input type="email" name="email" placeholder="Enter your email">
+                        <button type="submit"><i class="uil uil-message"></i></button>
+                    </form>
                 </div>
 
                 <h3 class="footer__title--section">Retrouver nous sur</h3>
@@ -45,6 +49,11 @@
             </div>
         </div>
 
-        <p class="footer__copy">&#169; FIIT Protection Internationale. Tous droits réservés ! By <span><a href="https://cabral221.github.io" target="_blank">@Cabral221</a></span></p>
+        <p class="footer__copy">
+            &#169;
+            <a href="{{ route('admin.dashboard') }}" class="text-white">FIIT Protection Internationale</a>. Tous droits
+            réservés ! By <span><a href="https://cabral221.github.io" target="_blank"
+                    class="text-white">@Cabral221</a></span>
+        </p>
     </div>
 </footer>

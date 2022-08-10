@@ -4,67 +4,41 @@
 
 @section('content')
     <div class="container py-4">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <x-frontend.card>
-                    <x-slot name="header">
-                        @lang('Login')
-                    </x-slot>
 
-                    <x-slot name="body">
-                        <x-forms.post :action="route('frontend.auth.login')">
-                            <div class="form-group row">
-                                <label for="email" class="col-md-4 col-form-label text-md-right">@lang('E-mail Address')</label>
-
-                                <div class="col-md-6">
-                                    <input type="email" name="email" id="email" class="form-control" placeholder="{{ __('E-mail Address') }}" value="{{ old('email') }}" maxlength="255" required autofocus autocomplete="email" />
-                                </div>
-                            </div><!--form-group-->
-
-                            <div class="form-group row">
-                                <label for="password" class="col-md-4 col-form-label text-md-right">@lang('Password')</label>
-
-                                <div class="col-md-6">
-                                    <input type="password" name="password" id="password" class="form-control" placeholder="{{ __('Password') }}" maxlength="100" required autocomplete="current-password" />
-                                </div>
-                            </div><!--form-group-->
-
-                            <div class="form-group row">
-                                <div class="col-md-6 offset-md-4">
-                                    <div class="form-check">
-                                        <input name="remember" id="remember" class="form-check-input" type="checkbox" {{ old('remember') ? 'checked' : '' }} />
-
-                                        <label class="form-check-label" for="remember">
-                                            @lang('Remember Me')
-                                        </label>
-                                    </div><!--form-check-->
-                                </div>
-                            </div><!--form-group-->
-
-                            @if(config('boilerplate.access.captcha.login'))
-                                <div class="row">
-                                    <div class="col">
-                                        @captcha
-                                        <input type="hidden" name="captcha_status" value="true" />
-                                    </div><!--col-->
-                                </div><!--row-->
-                            @endif
-
-                            <div class="form-group row mb-0">
-                                <div class="col-md-8 offset-md-4">
-                                    <button class="btn btn-primary" type="submit">@lang('Login')</button>
-
-                                    <x-utils.link :href="route('frontend.auth.password.request')" class="btn btn-link" :text="__('Forgot Your Password?')" />
-                                </div>
-                            </div><!--form-group-->
-
-                            <div class="text-center">
-                                @include('frontend.auth.includes.social')
+        <h2 class="text-center py-3">
+            @lang('Login') : Attention Espace réservée aux administrateurs
+        </h2>
+        <!--row-->
+        <div class="row d-flex justify-content-center">
+            <div class="col-sm-6">
+                <form action="{{ route('frontend.auth.login') }}" method="post">
+                    @csrf
+                    <div class="screen-1">
+                        <img src="{{ asset('img/LogoFPI.png') }}" class="logo" />
+                        <div class="email">
+                            <label for="email">Adresse Email</label>
+                            <div class="sec-2">
+                                <ion-icon name="mail-outline"></ion-icon><input type="email" name="email"
+                                    placeholder="user@exemple.com" value="{{ old('email') }}" maxlength="255" required
+                                    autofocus autocomplete="email" />
                             </div>
-                        </x-forms.post>
-                    </x-slot>
-                </x-frontend.card>
-            </div><!--col-md-8-->
-        </div><!--row-->
-    </div><!--container-->
+                        </div>
+                        <div class="password">
+                            <label for="password">Mot de passe</label>
+                            <div class="sec-2">
+                                <ion-icon name="lock-closed-outline"></ion-icon>
+                                <input class="pas" type="password" name="password" placeholder="xxxxxxxx" />
+                                <ion-icon class="show-hide" name="eye-outline"></ion-icon>
+                            </div>
+                        </div>
+                        <button class="login" type="submit">Login </button>
+                        <div class="footer"><span>
+                                <x-utils.link :href="route('frontend.auth.password.request')" :text="__('Forgot Your Password?')" />
+                            </span></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--container-->
 @endsection

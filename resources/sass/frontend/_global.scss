@@ -31,7 +31,7 @@ ul{
 }
 
 a{
-    text-decoration: none;  
+    text-decoration: none;
 }
 
 img{
@@ -126,3 +126,120 @@ img{
 .alert.header-message {
     border-radius: 0 !important;
 }
+
+// Fiit
+$p: hsl(213deg 85% 97%);
+$s: hsl(233deg 36% 38%);
+* { font-family: 'Poppins' }
+@mixin screen {
+	background: $p;
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	border-radius: 30px;
+	box-shadow: 0 0 2em hsl(231deg 62% 94%);
+}
+
+.login-card {
+    background-color: var(--first-color) !important;
+    color: #000;
+
+    .button {
+        background-color: var(--body-color);
+
+        &:hover {
+            color: var(--body-color);
+        }
+    }
+}
+
+$p: var(--first-color);
+$s: var(--body-color);
+* { font-family: 'Poppins' }
+@mixin screen {
+	background: $p;
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	border-radius: 30px;
+	box-shadow: 0 0 2em #000;
+}
+.screen-1 {
+    @include screen;
+    gap: 2em;
+
+
+    .logo {
+        align-self: center;
+        margin: 1rem auto 2rem;
+        width: 150px;
+        height: auto;
+    }
+    .email {
+        background: hsl(0deg 0% 100%);
+        box-shadow: 0 0 2em hsl(231deg 62% 94%);
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        border-radius: 20px;
+        color: hsl(0deg 0% 30%);
+        margin-top: -3em;
+        input {
+            outline: none;
+            border: none;
+            &::placeholder {
+                color: hsl(0deg 0% 0%);
+                font-size: 0.9em;
+            }
+        }
+        ion-icon {
+            color: hsl(0deg 0% 30%);
+            margin-bottom: -.2em;
+        }
+    }
+    .password {
+        background: hsl(0deg 0% 100%);
+        box-shadow: 0 0 2em hsl(231deg 62% 94%);
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+        border-radius: 20px;
+        color: hsl(0deg 0% 30%);
+        input {
+            outline: none;
+            border: none;
+            &::placeholder {
+                color: hsl(0deg 0% 0%);
+                font-size: 0.9em;
+            }
+        }
+        ion-icon {
+            color: hsl(0deg 0% 30%);
+            margin-bottom: -.2em;
+        }
+        .show-hide {
+            margin-right: -5em;
+        }
+    }
+    .login {
+        padding: 1em;
+        background: $s;
+        color: hsl(0 0 100);
+        border: none;
+        border-radius: 30px;
+        font-weight: 600;
+    }
+    .footer {
+        display: flex;
+        font-size: 0.7em;
+        color: hsl(0deg 0% 37%);
+        gap: 14em;
+        padding-bottom: 10em;
+        span { cursor: pointer }
+    }
+    button { cursor: pointer; }
+}
+
+
