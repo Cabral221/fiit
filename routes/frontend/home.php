@@ -26,3 +26,6 @@ Route::get('terms', [TermsController::class, 'index'])
         $trail->parent('frontend.index')
             ->push(__('Terms & Conditions'), route('frontend.pages.terms'));
     });
+
+Route::get('gallery', [HomeController::class, 'gallery'])
+    ->name('gallery');

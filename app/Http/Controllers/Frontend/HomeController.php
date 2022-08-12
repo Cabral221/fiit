@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Frontend;
 use App\Mail\Contact as MailContact;
 use App\Mail\Newsletter as MailNewsletter;
 use App\Models\Contact;
+use App\Models\GalleryImage;
 use App\Models\Newsletter;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -19,7 +20,14 @@ class HomeController
      */
     public function index()
     {
-        return view('frontend.index');
+        $images = GalleryImage::orderBy('created_at', 'DESC')->limit(5)->get();
+
+        return view('frontend.index', compact('images'));
+    }
+
+    public function gallery()
+    {
+        dd('gallerie page');
     }
 
     public function news(Request $request)
